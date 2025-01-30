@@ -37,9 +37,11 @@ Contacter Data for Good
 
 1. Clonez ce dépôt : `git clone https://github.com/m4xim1nus/LocalOuvert.git`
 
-2. Installez les dépendances à l'aide de `pip install -r requirements.txt`.
+1. Utilisez un venv python `python3 -m venv .venv && source .venv/bin/activate`
 
-3. Pour exécuter les scripts pour télécharger et traiter les données, executez ` python main.py config.yaml `
+2. Installez les dépendances à l'aide de `poetry install`.
+
+3. Pour exécuter les scripts pour télécharger et traiter les données, executez `poetry run python main.py config.yaml `
 
 
 ## License
